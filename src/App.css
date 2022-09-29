@@ -1,9 +1,14 @@
+:root {
+  --primary: #47cf73;
+  --secondary: #7a9dff;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,7 +20,27 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.xs .App-header {
+  flex-direction: column;
+  font-size: 4vmin;
+}
+
+.App-link {
+  color: var(--secondary);
+}
+
+.App-content {
+  background-color: var(--secondary);
+  background: -webkit-linear-gradient(201deg, var(--primary), var(--secondary));
+  background: linear-gradient(201deg, var(--primary), var(--secondary));
+  background-size: 400% 400%;
+  min-height: calc(100vh - 10vmin);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,8 +49,15 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  margin: 1em auto;
+  text-align: center;
+  border: 1px solid;
+  padding: 16px;
+}
+
+.isMobile .card {
+  padding: 4px;
 }
 
 @keyframes App-logo-spin {
