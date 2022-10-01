@@ -3,7 +3,7 @@
 > This is an usage example of the useBreakpointsObserver hook
 
 🎣 The useBreakpointsObserver repo is [here](https://github.com/vaxevanis/useBreakpointsObserver)
-<br/>><br/>
+<br/><br/>
 🤸‍♂️ For a Running Demo click [here](https://paulv.gr/usebreakpointsobserver/)
 <br/><br/>
 Thank you!
