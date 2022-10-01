@@ -19,11 +19,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: white;
+  color: #515151;
 }
 
 .xs .App-header {
@@ -40,12 +39,11 @@
   background: -webkit-linear-gradient(201deg, var(--primary), var(--secondary));
   background: linear-gradient(201deg, var(--primary), var(--secondary));
   background-size: 400% 400%;
-  min-height: calc(100vh - 10vmin);
+  min-height: calc(100vh - 15vmin);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -53,11 +51,34 @@
   margin: 1em auto;
   text-align: center;
   border: 1px solid;
-  padding: 16px;
+  padding: 16px 8px 4px 8px;
 }
 
 .isMobile .card {
   padding: 4px;
+}
+
+.App-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 8px;
+}
+
+.App-footer > div {
+  padding: 0 8px;
+}
+.xs .App-footer {
+  flex-direction: column;
+}
+
+.App-footer a:hover,
+.App-footer a:focus {
+  color: var(--primary);
+}
+
+.App-footer a {
+  color: var(--secondary);
 }
 
 @keyframes App-logo-spin {

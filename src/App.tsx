@@ -64,6 +64,24 @@ export const App: React.FC<{}> = () => {
             </p>
           </div>
         </div>
+        <footer className="App-footer">
+          <div>
+            <a
+              href="https://www.npmjs.com/package/use-breakpoint-observer"
+              target="blank"
+            >
+              Package & Basic Usage
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/vaxevanis/useBreakpointsObserver-example"
+              target="blank"
+            >
+              Demo Sourcecode
+            </a>
+          </div>
+        </footer>
       </div>
     </AppContext.Provider>
   );
