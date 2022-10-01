@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# An Example of useBreakpointsObserver() hook
+
+> This is an usage example of the useBreakpointsObserver hook
+
+🎣 The useBreakpointsObserver repo is [here](https://github.com/vaxevanis/useBreakpointsObserver)
+<br/>><br/>
+🤸‍♂️ For a Running Demo click [here](https://paulv.gr/usebreakpointsobserver/)
+<br/><br/>
+Thank you!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
